@@ -27,7 +27,7 @@ public class StudentReg extends AppCompatActivity {
         btn7.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(StudentReg.this, com.example.skill_sync.ChooseRole.class);
+                Intent intent = new Intent(StudentReg.this, activity_home.class);
                 startActivity(intent);
             }
         });

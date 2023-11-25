@@ -13,6 +13,12 @@
         android:theme="@style/Theme.Skill_Sync"
         tools:targetApi="31">
         <activity
+            android:name=".acticity_setting"
+            android:exported="false" />
+        <activity
+            android:name=".activity_home"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
@@ -22,9 +28,9 @@
             </intent-filter>
         </activity>
         <activity android:name=".ChooseRole" />
-        <activity android:name=".Login"/>
-        <activity android:name=".TutorReg"/>
-        <activity android:name=".StudentReg"/>
+        <activity android:name=".Login" />
+        <activity android:name=".TutorReg" />
+        <activity android:name=".StudentReg" />
 
         <meta-data
             android:name="preloaded_fonts"

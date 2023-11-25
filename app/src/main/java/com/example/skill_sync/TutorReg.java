@@ -31,7 +31,7 @@ public class TutorReg extends AppCompatActivity {
         btn7.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(TutorReg.this, ChooseRole.class);
+                Intent intent = new Intent(TutorReg.this, activity_home.class);
                 startActivity(intent);
             }
         });
